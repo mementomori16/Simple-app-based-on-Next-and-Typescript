@@ -1,0 +1,54 @@
+[debug] [2024-11-30T13:59:28.609Z] ----------------------------------------------------------------------
+[debug] [2024-11-30T13:59:28.611Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ilyar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-11-30T13:59:28.612Z] CLI Version:   13.27.0
+[debug] [2024-11-30T13:59:28.612Z] Platform:      win32
+[debug] [2024-11-30T13:59:28.612Z] Node Version:  v20.11.0
+[debug] [2024-11-30T13:59:28.612Z] Time:          Sat Nov 30 2024 14:59:28 GMT+0100 (Central European Standard Time)
+[debug] [2024-11-30T13:59:28.612Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-30T13:59:28.614Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-11-30T13:59:28.650Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-30T13:59:28.650Z] > authorizing via signed-in user (ilyafineart@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  I:\Programming\GIT\Daniela Hagmann (29.11.2024)\my-github-repo
+
+[debug] [2024-11-30T13:59:29.095Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-11-30T13:59:29.096Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-30T14:02:26.882Z] Checked if tokens are valid: false, expires at: 1732820795287
+[debug] [2024-11-30T14:02:26.883Z] Checked if tokens are valid: false, expires at: 1732820795287
+[debug] [2024-11-30T14:02:26.883Z] > refreshing access token with scopes: []
+[debug] [2024-11-30T14:02:26.884Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-11-30T14:02:26.884Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-30T14:02:27.336Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-11-30T14:02:27.336Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-11-30T14:02:27.345Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-11-30T14:02:27.987Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-11-30T14:02:27.987Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project alert-vista-438714-n0 (My First Project) 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-30T14:02:39.617Z] Checked if tokens are valid: true, expires at: 1732978946336
+[debug] [2024-11-30T14:02:39.617Z] Checked if tokens are valid: true, expires at: 1732978946336
+[debug] [2024-11-30T14:02:39.617Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/alert-vista-438714-n0 [none]
+[debug] [2024-11-30T14:02:40.109Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/alert-vista-438714-n0 200
+[debug] [2024-11-30T14:02:40.109Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/alert-vista-438714-n0 {"projectId":"alert-vista-438714-n0","projectNumber":"511931264297","displayName":"My First Project","name":"projects/alert-vista-438714-n0","resources":{"hostingSite":"alert-vista-438714-n0"},"state":"ACTIVE","etag":"1_34bc15f3-a1f7-495a-b128-fc92e868cf0e"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
